@@ -1,0 +1,423 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bh.JS 2012 - Evento para desenvolvedores em Javascript Belo Horizonte</title>
+<meta name="description" content="Evento para desenvolvedores em Javascript Belo Horizonte, focado em Javascript, Jquery, NodeJS, HTML5." />
+<meta name="keywords" content="Front-end, Front-endBH, Desenvolvedores, BH, Evento, HTML5, CSS3" />
+<link href="css/reset.css" media="screen" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" media="screen" rel="stylesheet" type="text/css"/>
+<script src="js/jquery-1.3.2.js" type="text/javascript"></script>
+<script src="js/jquery.countdown.js" type="text/javascript"></script>
+<script src="js/coda.js" type="text/javascript"></script>
+<script src="js/jquery.thumbhover.js" type="text/javascript"></script>
+<script src="js/cufon-yui.js" type="text/javascript"></script>
+
+<script src="js/Aller_400-Aller_700.font.js" type="text/javascript"></script>
+<script src="js/Bebas_Neue_400.font.js" type="text/javascript"></script>
+<script type="text/javascript">
+//cufon
+Cufon.replace('h2,h3,h4,h5,h6',{ fontFamily: 'Aller'});
+Cufon.replace('h1',{ fontFamily: 'Bebas Neue' });
+			
+//thumbover
+$(function(){
+	$("img[src*='_s.jpg']").thumbPopup({
+		imgSmallFlag: "_s",
+		imgLargeFlag: "_l"
+	});
+});
+//countdown
+$(function () {
+			$('#defaultCountdown').countdown({
+				until: new Date(2012, 1 - 1, 21, 0, 0, 0), 
+				format: 'DHMS',
+				layout: 
+							'<div id="vals">'+
+								'<div id="d" class="numbers">{dnn}</div>'+
+								'<div id="h" class="numbers">{hnn}</div>'+
+								'<div id="m" class="numbers">{mnn}</div>'+
+								'<div id="s" class="numbers">{snn}</div>'+
+													
+						         '</div>'
+				});
+		});
+</script> 
+</head>
+<body>
+<div id="header_top">
+  <div id="header">
+    <div id="logo"><a href="index.html" title="Bh.JS - 2012"><img src="images/logo.png" width="216" height="50" alt="Bh.JS - 2012" style=" margin-top: 20px;" /></a></div>
+    <div id="ribbon">
+
+      <h5>INSCREVA<br/>
+        ANTES DE<br/>
+        16 JANEIRO<br/>
+        E <span style="font-size: 18px;">PAGUE</span><span style="color:#fff000; font-size: 18px;"> R$ 35</span></h5>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+  <!--header ends-->
+</div>
+<!--header top ends-->
+<div id="event_disply">
+  <div id="event_disply_left">
+    <h2>2012 Evento Bh.JS</h2>
+    <h6>Local: Av. Alfredo Camaratti, 121, BH, MG, <span style="font-size:22px; ">UNOPAR</span></h6>
+
+    <p>O javascript é baseado em ECMAScript. É uma das linguagens mais famosa do mundo podendo ser utilizado no client-server ou até mesmo no server-site. Tem ganhado diversos adeptos devido a mudança de paradigma nos plug-ins.</p>
+    <p>Fornece orientação a objetos baseados em em protótipos, tipagem fraca, clousures dentre outros recursos. O Bh.JS é uma opotunidade única de interagir com grandes nomes do mercado. Aproveite para trocar experiências e aprofundar na tecnologia que tem grande notoridade.</p>
+    <ul>
+      <li>Antes de 16 de janeiro</li>
+      <li>Presencial R$ 35</li>
+      <li>Presencial R$ 25</li>
+    </ul>
+    <ul style="margin-left: 20px;">
+      <li>Após o 16 de janeiro</li>
+
+      <li>Presencial R$ 45</li>
+       <li>Online R$ 35</li>
+    </ul>
+  </div>
+  <!--event_display_left ends-->
+  <div id="event_disply_right">
+    <h2>21/Jan | 09h00min as 18h00min</h2>
+    <div id="defaultCountdown_container">
+      <div id="defaultCountdown"></div>
+
+      <div id="countdown_tag">
+        <p>dias</p>
+      </div>
+    </div>
+    <div id="button1">
+      <h1><a href="#">Inscreva - se</a></h1>
+    </div>
+  </div>
+
+  <!--event_display right ends-->
+  <div class="clear"></div>
+</div>
+<!--event_display ends-->
+<div id="contact">
+  <div id="contact_inner">
+    <ul>
+      <li><span style="font-weight:bold">Deseja patrocinar ou apoiar o evento? </span>Envie um e-mail para <a href="mailto:suporte@eia.com.br">suporte@eia.com.br</a></li>
+
+    </ul>
+  </div>
+  <div class="clear"></div>
+</div>
+<!--contact ends-->
+<div id="content">
+  <div id="content_left">
+    <div class="content_middle" style="heght:210px">
+      <h4>Reservada para Patrocinadores Diamond</h4>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam quis Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam quis Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.<br />
+      </p>
+    </div>
+    <h3>Palestras e Dojo de 09h00min as 12h00min</h3>
+    <h5>Palestras de 40 minutos e 20 minutos de Dojo com abordagem a tecnologia javascript.</h5>
+    <div class="bubbleInfo">
+      
+        <h3 class="trigger">Detalhes</h3>
+      
+      <div class="popup">
+
+        <h6>Palestras</h6>
+        <p>A programação na parte da manhã.</p>
+        <ul>
+          <li>09h00mim as 10h00min - HTML5</li>
+          <li>10h00min as 11h00min - WebStorage</li>
+          <li>11h00min as 12h00min - SVG e Canvas</li>
+
+        </ul>
+        <p>Aproveite e faça <a href="#">sua inscrição</a></p>
+      </div>
+    </div><!--bubbleinfo ends-->
+    <div class="arrow"></div>
+    <div class="clear"></div>
+  </div>
+  <div id="content_right">
+
+    <div class="content_middle" style="heght:215px">
+      <h4>Local: Av. Alfredo Camaratti, 121, BH, MG, <span style="font-size:22px; ">UNOPAR</span></h4>
+      <p><iframe width="420" height="140" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Av.+Alfredo+Camaratti,+121,+BH,+MG&amp;aq=&amp;sll=-14.239424,-53.186502&amp;sspn=43.539017,86.572266&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=Av.+Alfredo+Camarate,+121+-+S%C3%A3o+Lu%C3%ADs,+Belo+Horizonte+-+Minas+Gerais,+31310-000&amp;t=m&amp;z=14&amp;ll=-19.864001,-43.976069&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com.br/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=Av.+Alfredo+Camaratti,+121,+BH,+MG&amp;aq=&amp;sll=-14.239424,-53.186502&amp;sspn=43.539017,86.572266&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=Av.+Alfredo+Camarate,+121+-+S%C3%A3o+Lu%C3%ADs,+Belo+Horizonte+-+Minas+Gerais,+31310-000&amp;t=m&amp;z=14&amp;ll=-19.864001,-43.976069" style="color:#0000FF;text-align:left">Exibir mapa ampliado</a></small></p>
+    </div>
+    <h3>Palestras e Dojo  de  13h00min as 18h00min</h3>
+    <h5>Palestras de 40 minutos e 20 minutos de Dojo com abordagem a tecnologia javascript. Teremos 15 minutos de coffee-break.</h5>
+
+  <div class="bubbleInfo">
+      
+        <h3 class="trigger">Detalhes</h3>
+      
+      <div class="popup">
+        <h6>Palestras</h6>
+        <p>A programação na parte da tarde.</p>
+        <ul>
+          <li>13h00min as 14h00min - HTML5</li>
+          <li>14h00min as 15h00min - NodeJS</li>
+          <li>15h00min as 15h15min - Coffee-break</li>
+          <li>15h15min as 16h00min - Ext JS4</li>
+          <li>16h00min as 17h00min - JQuery</li>
+          <li>17h00min as 18h00min - Motools</li>
+        </ul>
+        <p>Aproveite e faça <a href="#">sua inscrição</a></p>
+      </div>
+    </div>
+    <!--bubble info ends-->
+
+    <div class="arrow"></div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+</div>
+<!--content ends-->
+<div id="sponsors">
+  <div id="sponsors_inner">
+    <div id="sponsor_title">
+      <h3>Patrocinadores</h3>
+
+    </div>
+    <div class="sponsor_img"><a href="http://curso.eia.com.br" target="_blank" title="EIA"><img src="images/patrocinador_s.jpg" width="160px" height="95px" alt="EIA" border="0" /></a></div>
+    <div class="sponsor_img"><a href="http://curso.eia.com.br" target="_blank" title="EIA"><img src="images/patrocinador_s.jpg" width="160px" height="95px" alt="EIA" border="0" /></a></div>
+    <div class="sponsor_img"><a href="http://curso.eia.com.br" target="_blank" title="EIA"><img src="images/patrocinador_s.jpg" width="160px" height="95px" alt="EIA" border="0" /></a></div>
+    <div class="sponsor_img"><a href="http://curso.eia.com.br" target="_blank" title="EIA"><img src="images/patrocinador_s.jpg" width="160px" height="95px" alt="EIA" border="0" /></a></div>
+  </div>
+  <!--sponsors_inner ends-->
+  <div class="clear"></div>
+</div>
+
+<!--sponsors ends-->
+<div id="information">
+  <div id="gallery">
+    <div class="image"> <img src="images/palestrante.jpg" width="160" height="95" align="left" alt="img" style=" margin-right: 15px; float:left; border: 5px solid #dbdbdb;"  /><b>09h00min - Zeno
+- Globo - HTML5</b>   
+  <p> Um framework fantástico que oferece diversas funcionalidades para o desenvolvimento de um sistema WEB. Permite a arquitetura MVC e fornece suporte cross-browser, além de ser sandbox.</p>
+    </div>
+    
+    <div class="image"> <img src="images/palestrante.jpg" width="160" height="95" align="left" alt="img" style=" margin-right: 15px; float:left; border: 5px solid #dbdbdb;"  /><b>10h00min - Suissa
+- ??? - WebStorage</b>   
+  <p> Um framework fantástico que oferece diversas funcionalidades para o desenvolvimento de um sistema WEB. Permite a arquitetura MVC e fornece suporte cross-browser, além de ser sandbox.</p>
+    </div>
+    
+    <div class="image"> <img src="images/palestrante.jpg" width="160" height="95" align="left" alt="img" style=" margin-right: 15px; float:left; border: 5px solid #dbdbdb;"  /><b>11h00min - Ricardo Sasilva
+- SVG e Canvas - GoNow</b>   
+  <p> Um framework fantástico que oferece diversas funcionalidades para o desenvolvimento de um sistema WEB. Permite a arquitetura MVC e fornece suporte cross-browser, além de ser sandbox.</p>
+    </div>
+    
+    <div class="image"> <img src="images/palestrante.jpg" width="160" height="95" align="left" alt="img" style=" margin-right: 15px; float:left; border: 5px solid #dbdbdb;"  /><b>13h00min - Irae
+- Yahoo - Perfomace</b>   
+  <p> Um framework fantástico que oferece diversas funcionalidades para o desenvolvimento de um sistema WEB. Permite a arquitetura MVC e fornece suporte cross-browser, além de ser sandbox.</p>
+    </div>
+    
+    <div class="image"> <img src="images/palestrante.jpg" width="160" height="95" align="left" alt="img" style=" margin-right: 15px; float:left; border: 5px solid #dbdbdb;"  /><b>14h00min - Nando Vieira
+- UOL - NodeJS</b>   
+  <p> Um framework fantástico que oferece diversas funcionalidades para o desenvolvimento de um sistema WEB. Permite a arquitetura MVC e fornece suporte cross-browser, além de ser sandbox.</p>
+    </div>
+    
+    <div class="image"> <img src="images/palestrante.jpg" width="160" height="95" align="left" alt="img" style=" margin-right: 15px; float:left; border: 5px solid #dbdbdb;"  /><b>15h15min - Éder Oliveira
+- EIA - Ext JS4</b>   
+  <p> Um framework fantástico que oferece diversas funcionalidades para o desenvolvimento de um sistema WEB. Permite a arquitetura MVC e fornece suporte cross-browser, além de ser sandbox.</p>
+    </div>
+    
+    <div class="image"> <img src="images/palestrante.jpg" width="160" height="95" align="left" alt="img" style=" margin-right: 15px; float:left; border: 5px solid #dbdbdb;"  /><b>16h00min - Marcos Souza
+- Globo - JQuery</b>   
+  <p> Um framework fantástico que oferece diversas funcionalidades para o desenvolvimento de um sistema WEB. Permite a arquitetura MVC e fornece suporte cross-browser, além de ser sandbox.</p>
+    </div>
+    
+    <div class="image"> <img src="images/palestrante.jpg" width="160" height="95" align="left" alt="img" style=" margin-right: 15px; float:left; border: 5px solid #dbdbdb;"  /><b>17h00min - Fábio
+- Globo - Motools</b>   
+  <p> Um framework fantástico que oferece diversas funcionalidades para o desenvolvimento de um sistema WEB. Permite a arquitetura MVC e fornece suporte cross-browser, além de ser sandbox.</p>
+    </div>
+    
+    <div class="image"> <img src="images/palestrante.jpg" width="160" height="95" align="left" alt="img" style=" margin-right: 15px; float:left; border: 5px solid #dbdbdb;"  /><b>15h15min - Éder Oliveira
+- EIA - Ext JS4</b>   
+  <p> Um framework fantástico que oferece diversas funcionalidades para o desenvolvimento de um sistema WEB. Permite a arquitetura MVC e fornece suporte cross-browser, além de ser sandbox.</p>
+    </div>
+    
+    <div class="image"> <img src="images/palestrante.jpg" width="160" height="95" align="left" alt="img" style=" margin-right: 15px; float:left; border: 5px solid #dbdbdb;"  /><b>15h15min - Éder Oliveira
+- EIA - Ext JS4</b>   
+  <p> Um framework fantástico que oferece diversas funcionalidades para o desenvolvimento de um sistema WEB. Permite a arquitetura MVC e fornece suporte cross-browser, além de ser sandbox.</p>
+    </div>
+    
+  </div>
+  <!--gallery ends-->
+  <div id="subscribe">
+    <h4>Para participar preencha abaixo:</h4>
+    <br />
+	Formulário de matrícula no evento Bh.JS.<br />
+	Apenas R$ 35.00 presencial até o dia 16/01/2012.<br />
+    Apenas R$ 25.00 online até o dia 16/01/2012. <br /><br />
+     <form action="acaoCurso.php" name="formInscricao" id="formInscricao" method="post">
+              <input name="curso" type="hidden" id="curso" value="7"  />
+                <fieldset id="inscricao">
+
+                <label for="name">Primeiro Nome:*</label>
+
+                <br />
+                <input name="name" type="text" class="forms" id="name" size="35" maxlength="60" />
+                <br /><br />
+                <label for="lastname">Sobrenome:*</label>
+                <br />
+                <input name="lastname" type="text" class="forms" id="lastname" size="35" maxlength="60" />
+                <br /><br />
+
+                <label for="cpf">CPF:*</label>
+
+                <br />
+                <input name="cpf" type="text" class="forms" id="cpf" size="35" maxlength="11" onkeypress="javascript: mascaraInteiro();" />
+                <br /><br />
+                <label for="cep">CEP:*</label>
+                <br />
+                <input name="cep" type="text" class="forms" id="cep" size="35" maxlength="8" onkeypress="javascript: mascaraInteiro();" />
+                <br /><br />
+
+<label for="endereco">Endereço:*</label>
+
+                <br />
+                <input name="endereco" type="text" class="forms" id="endereco" size="35" maxlength="255" />
+                <br /><br />
+<label for="numero">Número/Complemento:*</label>
+                <br />
+                <input name="numero" type="text" class="forms" id="numero" size="35" maxlength="120" />
+                <br /><br />
+<label for="cidade">Cidade:*</label>
+
+                <br />
+                <input name="cidade" type="text" class="forms" id="cidade" size="35"  maxlength="120" value="Belo Horizonte"/>
+                <br /><br />
+                <label for="cidade">Estado:*</label>
+                <br />
+                <select id="uf" name="uf"  class="forms"  >
+			                 	<option value="mg">Minas Gerais</option>
+                                <option value="ac">Acre</option>
+
+                                <option value="al">Alagoas</option>
+
+                                <option value="ap">Amapá</option>
+                                <option value="am">Amazonas</option>
+                                <option value="ba">Bahia</option>
+                                <option value="ce">Ceará</option>
+                                <option value="df">Distrito Federal</option>
+
+                                <option value="es">Espírito Santo</option>
+
+                                <option value="ex">Exterior</option>
+                                <option value="go">Goiás</option>
+                                <option value="ma">Maranhão</option>
+                                <option value="mt">Mato Grosso</option>
+                                <option value="ms">Mato Grosso do Sul</option>
+
+                                
+
+                                <option value="pa">Pará</option>
+                                <option value="pb">Paraíba</option>
+                                <option value="pr">Paraná</option>
+                                <option value="pe">Pernambuco</option>
+                                <option value="pi">Piauí</option>
+                                <option value="rj">Rio de Janeiro</option>
+
+                                <option value="rn">Rio Grande do Norte</option>
+                                <option value="rs">Rio Grande do Sul</option>
+                                <option value="ro">Rondônia</option>
+                                <option value="rr">Roraima</option>
+                                <option value="sc">Santa Catarina</option>
+                                <option value="sp">São Paulo</option>
+
+                                <option value="se">Sergipe</option>
+                                <option value="to">Tocantins</option>
+
+                </select>
+                <br /><br />
+                <label for="email">E-mail:*</label>
+                <br />
+
+                <input name="email" type="text" class="forms" id="email" size="35" maxlength="255" />
+
+                <br /><br />
+                <label for="celular">Celular/Residencial: (dd) xxxx-xxxx* </label>
+                <br />
+                <input name="celular" type="text" class="forms" id="celular" size="35" maxlength="16" onKeyPress="javascript: mascaraCelular();mascaraInteiro();"    />
+                <br /><br />
+                <label for="niver">Data Nascimento: (dd/mm/aaaa)*</label>
+
+                <br />
+                <input name="niver" type="text" class="forms" id="niver" size="35"  maxlength="10" onKeyPress="javascript: mascaraData();mascaraInteiro();"  />
+
+                <br /><br />
+                <label for="message">Observação:</label>
+                <br />
+                <textarea name="message" cols="30" rows="6" class="forms" id="message"></textarea>
+                               
+                <br /><br />
+                <label for="pagamento">Pagamento:</label>
+
+                <br />
+
+                <input type="radio" name="pagamento" id="pagamento" value="1" checked="checked" />R$ 35,00 - Presencial(pag seguro)<br />
+                <input type="radio" name="pagamento" id="pagamento" value="2" checked="checked" />R$ 25,00 - Online(pag seguro)
+                <br /><br />
+                <label for="regulamento">Termos de Aceite:</label>
+				<br />
+                <textarea name="regulamento" cols="30" rows="6"  class="forms" readonly="readonly" id="regulamento">Parabéns pela sua escolha! Ao matricular no Curso, você estará ciente que: 
+a) leu atentamente o presente regulamento e não tem nenhuma dúvida quanto ao seu conteúdo e às condições aqui relacionadas;
+b) adere incondicionalmente a todos os termos e condições aqui expressas. 
+1. PREMISSAS DO ALUNO
+                1.1 - Estar ciente que o seu desempenho e rendimento no curso estão diretamente relacionados à sua disciplina, sua organização para os estudos e a realização de todas as tarefas sugeridas.
+              1.2 - Não serão toleradas atitudes desrespeitosas e o uso de expressões de inapropriadas no local de estudo. Atitudes assim poderão resultar no cancelamento da matrícula do transgressor.              Os valores continuaram a ser devidos. 
+              1.3 - Os computadores disponibilizados aos Alunos devem ser utilizados apenas para as finalidades de ensino sugeridas durante o transcorrer do curso. Não serão toleradas tentativas de violação, invasão ou qualquer outro comportamento que comprometa o desempenho ou informações contidas nos computadores sob qualquer hipótese.
+              1.4 - A instituição não se responsabiliza pelas opiniões ou atos dos Alunos deste curso. Toda informação por eles no decorrer do curso são de responsabilidade exclusiva do seu próprio autor.            
+              1.5 - Evite usar ao mesmo tempo MSN, skype, emule ou alguma ferramenta para torrent, isso aumenta gradativamente o consumo de upload de sua conexão.<br />
+              1.6 - Pré-requisitos: Conexão banda larga: Mínimo 256k; Browsers: FF, Google Chrome, Safari, IE 7 ou superior; Flash Player 10,1 ou superior instalado; Portas 1935 e 80 liberada no firewall; Protocolos RTMP, TCP e UDP; Fone com microfone para uma perfeita comunicação.
+              2. CURSO 
+              2.1 - O Aluno declara que conhece o conteúdo programático do Curso em que está se inscrevendo, não tendo dúvidas quanto ao mesmo. A institução pode alterar o conteúdo programático ou redistribuir a carga horária do conteúdo sem qualquer aviso prévio, sem que haja prejuízo da carga horária total do curso, no intuito de melhorar a qualidade do curso.             
+              2.2 - Qualquer material distribuído será permitido somente a impressão, porém não é permitido a sua cópia, distribuição ou alteração.
+              2.3 - O valor cobrado pela aquisição do curso, bem como forma de pagamento, informações sobre a carga horária e corpo docente encontram-se descritas na página da EIA anexada ao referido curso, sendo incorporado ao presente instrumento, como se aqui estivesse transcrito.
+              2.4 - Evite participar de um evento se este não for de seu interesse, evite provocar situações desagradáveis para todos. Desta forma, você atrapalhará todo o processo e o andamento do evento. O instrutor poderá removê-lo do ambiente caso sua postura seja incorreta.
+              2.4 - O Aluno poderá tirar dúvidas durante 1º mês após a conclusão do curso por e-mail informado no primeiro dia de aula.
+              3. CANCELAMENTO 
+              3.1 - Não será possível o cancelamento do curso caso as aulas já estejam em andamento.
+              3.2 - Caso a desistência ocorra ANTES do começo das  aulas, o valor será devolvido, descontada multa de 20% sobre o valor pago para encargos administrativos.
+              3.3 - Fica eleito o foro central da cidade de Belo Horizonte, MG, para dirimir as dúvidas oriundas deste Regulamento.              
+
+</textarea>
+
+                <br /><br />
+                <input type="button" id="btnEnviar" name="btnEnviar"  onclick="javascript: EnviaForm();" title="Aceito os termos e quero me inscrever" value="Aceito os termos e quero me inscrever"  style="margin-left:0px;"/>
+                </fieldset>
+
+              </form>
+    <br /><br />
+    
+    <h4>Fique informado sobre as novidades...</h4>
+    <form action="" method="post">
+
+      <input class="input_subscribe" type="text" value="Digite o seu e-mail" onblur="if (this.value == '') {this.value = 'Digite o seu e-mail';}" onfocus="if (this.value == 'Digite o seu e-mail') {this.value = '';}" />
+      <input class="btn_subscribe" type="submit" value="EU QUERO" />
+    </form>
+  </div>
+  <!--subscribe ends-->
+  <div class="clear"></div>
+</div>
+<!--information ends-->
+<div id="footer">
+  <div id="footer_inner">
+
+    <div id="copyright">
+      <p>Organizadores: Éder Frances Oliveira e <a href="http://avelino.us/" target="_black">Thiago Avelino</a>.<br />Colaboradores: <a href="http://www.gonow.com.br/blog" target="_black">Laura</a> e Suissa.</p>
+    </div>
+    <div id="social">
+      <ul>
+        <li><a href="http://twitter.com/eder_frances" target="_blank"><img alt="twitter" src="images/twitter.png" /></a></li>
+        <li><a href="http://facebook.com/eia.com.br" target="_blank" ><img alt="facebook" src="images/facebook.png" /></a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+<!--footer ends-->
+<div class="clear"></div>
+</body>
+</html>
